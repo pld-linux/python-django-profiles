@@ -10,7 +10,7 @@ Source0:	django-profiles.tar.bz2
 # Source0-md5:	5a94560b95f64dc3b786701647876484
 URL:		https://bitbucket.org/ubernostrum/django-profiles/
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-django >= 1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
